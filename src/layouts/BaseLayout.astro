@@ -1,4 +1,12 @@
 ---
+import '../styles/global.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+import '@fontsource/roboto/800.css';
+import '@fontsource/bitcount-single-ink/400.css';
+import '@fontsource/bitcount-single-ink/700.css';
+
 export interface Props {
   title: string;
   description?: string;
@@ -16,7 +24,6 @@ const { title, description = 'Portfolio site built with Astro' } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="stylesheet" href="/styles/global.css" />
   </head>
   <body>
     <slot />
