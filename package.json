@@ -1,10 +1,9 @@
 {
   "name": "wcervini.github.io",
-  "type": "module",
   "version": "1.0.0",
-  "node": "22.12.0",
   "private": true,
   "description": "Portfolio site built with Astro",
+  "type": "module",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -12,14 +11,16 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/check": "^0.9.10",
     "@fontsource/bitcount-single-ink": "^5.2.1",
     "@fontsource/roboto": "^5.2.10",
     "@tailwindcss/vite": "^4.3.0",
-    "astro": "^6.4.6",
+    "astro": "^7.3.3",
     "astro-icon": "^1.1.5",
     "tailwindcss": "^4.3.0"
   },
   "devDependencies": {
     "@iconify-json/mdi": "^1.2.3"
-  }
+  },
+  "node": "22.12.0"
 }
